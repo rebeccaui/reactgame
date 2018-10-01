@@ -1,0 +1,62 @@
+[
+    {
+      "id": 0,
+      "name": "Sailor Moon",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_moon_season_iii.png"
+    },
+    {
+      "id": 1,
+      "name": "Sailor Mercury",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_mercury_season_iii.png"
+    },
+    {
+      "id": 2,
+      "name": "Sailor Venus",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_venus_season_iii.png"
+    },
+    {
+      "id": 3,
+      "name": "Sailor Mars",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_mars_season_iii.png"
+    },
+    {
+      "id": 4,
+      "name": "Sailor Jupiter",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_jupiter_season_iii.png"
+    },
+    {
+      "id": 5,
+      "name": "Sailor Saturn",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_saturn_season_iii.png"
+    },
+    {
+      "id": 6,
+      "name": "Sailor Uranus",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_uranus_season_iii.png"
+    },
+    {
+      "id": 7,
+      "name": "Sailor Neptune",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_neptune_season_iii.png"
+    },
+    {
+      "id": 8,
+      "name": "Sailor Pluto",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/sailor_pluto_season_iii.png"
+    },
+    {
+      "id": 9,
+      "name": "Luna",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/luna_sailor_moon_2014_7185.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Artemis",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/artemis_2014_2483.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Diana",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/2a640664b6cf02a3b352f5efdffb0bb3.png"
+    }
+  ]
