@@ -20,7 +20,7 @@ class App extends Component {
     //The target of our onClick event becomes our currentCharacter
     const currentCharacter = event.target.id;
     // Filter this.state.characters for characters with an id not equal to the id being removed
-    const clickedCharacters = this.state.clickedCharactersArr.indexOf(currentCharacter) > -1;
+    const clickedCharacters = console.log(this.state.clickedCharactersArray.indexOf(currentCharacter))> -1;
     // Set this.state.characters equal to the new characters array
     console.log(currentCharacter);
     if (clickedCharacters) {
@@ -28,15 +28,16 @@ class App extends Component {
         characters: this.state.characters.sort(function(a, b) {
           return 0.5 - Math.random();
         }),
-        clickedCharactersArr: [],
+        clickedCharactersArray: [],
         score: 0
       });
+      console.log("Clicked Characters: " + this.state.clickedCharactersArray);
     } else {
       this.setState({
         characters: this.state.characters.sort(function(a, b) {
           return 0.5 - Math.random();
         }),
-        clickedCharactersArr: this.state.clickedCharactersArr.concat(
+        clickedCharactersArray: this.state.clickedCharactersArray.concat(
           currentCharacter
         ),
         score: this.state.score + 1
@@ -46,9 +47,9 @@ class App extends Component {
             characters: this.state.characters.sort(function(a, b) {
               return 0.5 - Math.random();
             }),
-            clickedCharactersArr: [],
+            clickedCharactersArray: [],
             score: 0,
-            wins: this.state.wins +1
+            highscore: this.state.highscore +1
           });
         }
       });
@@ -67,12 +68,11 @@ class App extends Component {
         <Wrapper>
           {this.state.characters.map(character => (
             <CharacterCard
-              removecharacter={this.removecharacter}
+              clickCharacter={this.clickCharacter}
               id={character.id}
               key={character.id}
               name={character.name}
               image={character.image}
-              clickCharacter={this.clickCharacter}
             />
           ))}
         </Wrapper>

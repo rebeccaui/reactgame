@@ -11,7 +11,7 @@ const Navbar = props => (
                 <i class="fa fa-moon-o" aria-hidden="true"></i>
             </li>
             <li className="scores">
-                Score: <span style={{color: blue}}>{props.score}</span> | Highscore: {props.highscore}
+                Score: {props.score} | Highscore: {props.highscore}
             </li>
         </ul>
     </div>
@@ -20,7 +20,10 @@ const Navbar = props => (
 export default Navbar;
 
 
-/* <li className={props.message.indexOf('incorrectly') !== -1 ? 
+/* 
+    <img alt="Moon Crystal Makeup!" className="smLogo" src="sm-Logo.png"></img>
+
+    <li className={props.message.indexOf('incorrectly') !== -1 ? 
             "desc-incorrect" : 
             props.message.indexOf('correctly') !== -1 ?
                 "desc-correct" :
